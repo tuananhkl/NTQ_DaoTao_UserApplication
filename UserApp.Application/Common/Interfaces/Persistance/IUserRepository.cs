@@ -1,0 +1,18 @@
+using UserApp.Domain.Entities;
+
+namespace UserApp.Application.Common.Interfaces.Persistance;
+
+public interface IUserRepository
+{
+    Task<IEnumerable<User>> GetAll();
+
+    Task<User> GetById(int? id);
+    Task<User> GetByUserName(string userName);
+    
+    Task Add(User user);
+    
+    Task Update(User user);
+    
+    //Task Delete(int id);
+    Task Delete(User user);
+}
