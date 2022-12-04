@@ -1,0 +1,16 @@
+.idea/
+
+UserApp.Application/bin/
+UserApp.Application/obj/
+
+UserApp.Contracts/bin/
+UserApp.Contracts/obj/
+
+UserApp.Domain/bin/
+UserApp.Domain/obj/
+
+UserApp.Infrastructure/bin/
+UserApp.Infrastructure/obj/
+
+UserApp.MVC/bin/
+UserApp.MVC/obj/
